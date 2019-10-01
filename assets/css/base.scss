@@ -1,0 +1,44 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fontlibrary.org/face/minecraftia");
+
+body {
+	background-image: url("/assets/img/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.content {
+	font-family: "Roboto", sans-serif;
+
+	.page {
+		color: #ffffff;
+		background-color: rgba(40, 40, 40, 0.8);
+		margin: 40px;
+		padding: 20px;
+
+		.header {
+			color: #ffffff;
+
+			.main-title {
+				color: #eeeeee;
+			}
+		}
+	}
+
+	a {
+		color: #42f59e;
+		text-decoration: none;
+	}
+
+	.cblue {
+		color: #424ef5;
+	}
+
+	.mcfont {
+		font-family: "MinecraftiaRegular";
+	}
+}
