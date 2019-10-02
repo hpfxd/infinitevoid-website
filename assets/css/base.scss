@@ -9,10 +9,44 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 
 .content {
 	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+
+	.navbar {
+		list-style-type: none;
+
+		background-color: rgba(40, 40, 40, 0.8);
+		margin: 0;
+		padding-bottom: 17px;
+
+		.item {
+			font-size: 25px;
+			display: inline;
+			padding: 15px;
+			margin: 0;
+
+			transition: background-color 200ms;
+
+			&.active {
+				background-color: rgb(60, 60, 60);
+			}
+
+			a {
+				top: 5px;
+				position: relative;
+			}
+
+			&:hover {
+				background-color: rgb(50, 50, 50);
+			}
+		}
+	}
 
 	.page {
 		color: #ffffff;
