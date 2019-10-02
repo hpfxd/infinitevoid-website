@@ -1,0 +1,11 @@
+<div class="container">
+	<ul class="navbar">
+		{% for node in site.navigation %}
+			{% if page.link == node.link %}
+				<li class="item active"><a href="{{ node.link }}" class="mcfont">{{ node.name }}</a></li>
+			{% else %}
+				<li class="item"><a href="{{ node.link }}" class="mcfont">{{ node.name }}</a></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>

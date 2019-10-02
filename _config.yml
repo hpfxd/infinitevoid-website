@@ -1,1 +1,7 @@
-
+navigation:
+  - name: Home
+    link: /
+  - name: Discord
+    link: /discord
+  - name: Link Guide
+    link: /link
