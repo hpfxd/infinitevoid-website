@@ -61,6 +61,13 @@ body {
 				color: #eeeeee;
 			}
 		}
+
+		table.sortable {
+			thead {
+				font-weight: bold;
+				cursor: default;
+			}
+		}
 	}
 
 	a {
