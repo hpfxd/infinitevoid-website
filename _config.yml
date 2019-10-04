@@ -1,6 +1,8 @@
 navigation:
   - name: Home
     link: /
+  - name: Members
+    link: /members
   - name: Leaderboards
     link: /leaderboards
   - name: Discord
